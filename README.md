@@ -4,26 +4,26 @@ SpringCloud构建分布式系统，运用了Eureka、Ribbon、Feign、Hystrix、
 =======
 # 基于 SpringCloud 搭建微服务系统
 工程介绍 <br>
-父工程：
-  SpringCloud
-子工程  
-  springcloud-consumer-dept-80      （Rest构建客户端）
-  springcloud-eureka-7001           （Eureka注册中心集群搭建）
-  springcloud-eureka-7002           （Eureka注册中心集群搭建）
-  springcloud-eureka-7003           （Eureka注册中心集群搭建）
-  springcloud-provider-dept-8002    （服务端集群搭建，Ribbon负载均衡）
-  springcloud-provider-dept-8003    （服务端集群搭建，Ribbon负载均衡）
-  springcloud-consumer-dept-feign-80（Feign客户端接口调用）
-  springcloud-provider-dept–hystrix-8001     （服务端Hystrix熔断处理集群）
-  springcloud-provider-dept–hystrix-8002     （服务端Hystrix熔断处理集群）
-  springcloud-consumer-hystrix-dashboard-9001（hystrix-dashboard服务熔断监控）
-  springcloud-zuul-9527             （Zuul网关路由，拦截器）
-  springcloud-config-server-3344    （Config配置中心服务）
-  springcloud-config-client-3355    （Config客户端，获取Git仓库配置文件）
-  springcloud-config-dept-feign-80  （Config + Feign 客户端）
-  springcloud-config-eureka-7001    （Config + Eureka 注册中心）
-  springcloud-config-dept-hystrix-8001 （Config + Hystrix + Bus 服务端）
-  springcloud-test                             
+父工程： <br>
+  SpringCloud <br>
+子工程  <br> 
+  springcloud-consumer-dept-80      （Rest构建客户端） <br>
+  springcloud-eureka-7001           （Eureka注册中心集群搭建） <br>
+  springcloud-eureka-7002           （Eureka注册中心集群搭建） <br>
+  springcloud-eureka-7003           （Eureka注册中心集群搭建） <br> 
+  springcloud-provider-dept-8002    （服务端集群搭建，Ribbon负载均衡）<br>
+  springcloud-provider-dept-8003    （服务端集群搭建，Ribbon负载均衡）<br>
+  springcloud-consumer-dept-feign-80（Feign客户端接口调用）<br>
+  springcloud-provider-dept–hystrix-8001     （服务端Hystrix熔断处理集群）<br>
+  springcloud-provider-dept–hystrix-8002     （服务端Hystrix熔断处理集群）<br>
+  springcloud-consumer-hystrix-dashboard-9001（hystrix-dashboard服务熔断监控）<br>
+  springcloud-zuul-9527             （Zuul网关路由，拦截器）<br>
+  springcloud-config-server-3344    （Config配置中心服务）  <br>
+  springcloud-config-client-3355    （Config客户端，获取Git仓库配置文件）<br>
+  springcloud-config-dept-feign-80  （Config + Feign 客户端） <br>
+  springcloud-config-eureka-7001    （Config + Eureka 注册中心） <br>
+  springcloud-config-dept-hystrix-8001 （Config + Hystrix + Bus 服务端）<br>
+  springcloud-test                             <br>
   
  ## 数据库
  分别导入 bill.sql、 bill2.sql、 bill3.sql，方便测试客户端负载均衡。
